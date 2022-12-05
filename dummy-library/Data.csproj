@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>dummy_library</RootNamespace>
+    <UserSecretsId>17d7d6c7-0c9e-4191-be0e-eb0dcd9b5474</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dummy-modles\Models.csproj" />
+  </ItemGroup>
+
+</Project>
